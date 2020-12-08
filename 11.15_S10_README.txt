@@ -1,0 +1,34 @@
+Simulation d'oscillation de barge.
+Equipe 11.15, S10
+Utilisation du programme:
+
+	1. Variables de base.
+
+Cette section permet de définir les dimensions de notre barge.
+
+long		= la longueur de la barge carrée (en mètres)
+haut		= la hauteur de la barge (en mètres)
+dist_0		= la distance initiale de la charge qui est déplacée horizontalement (en mètres)
+dist_t		= la distance finale de la charge (en mètres)
+dist_v		= la vitesse de déplacement de la barge (en mètres/seconde)
+coeff_amort	= le coefficient d'amortissement/force opposée au mouvement (sans unité)
+mass_tot	= la masse totale de la barge (en kg)
+mass_obj	= la masse de déplacement de l'objet
+cg_x		= la position du centre de gravité sur l'axe x (avec angle nul, parallèle à la longueur de la barge)
+cg_y		= la position du centre de gravité sur l'axe y (avec angle nul, parallèle à la hauteur de la barge)
+
+	2. Fonction de rotation
+
+Cette fonction redéfinit les varaibles nécessaires pour le calcul d'oscillation
+
+	3. Parametres de base
+
+Cette section definit les paramètres de départ de la barge.
+
+dt		= le pas (secondes)
+end		= la fin de la simulation (secondes)
+theta_0		= l'angle initial de la barge (radians)
+omega_0		= la vitesse angulaire de la barge (radians/seconde)
+
+Tous les autres paramètres sont présents pour le calcul de l'oscillation.
+
